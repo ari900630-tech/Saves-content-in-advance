@@ -1,0 +1,6 @@
+plugins { id 'com.android.application' }
+android {
+    namespace 'com.wifivault.app'
+    compileSdk 35
+    defaultConfig { applicationId 'com.wifivault.app'; minSdk 23; targetSdk 30; versionCode 1; versionName '1.0.0' }
+}
